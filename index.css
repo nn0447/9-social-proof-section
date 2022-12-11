@@ -1,0 +1,202 @@
+.card{
+    background-color: hsl(300, 43%, 22%);
+    height: 200px;
+    width: 320px;
+    border-radius: 10px;
+    color: white;
+    
+}
+#customers{
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    column-gap: 10px;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+.pink-text{
+    color: hsl(333, 80%, 67%);
+}
+#top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px;
+    column-gap: 50px;
+    
+}
+.flex{
+    display: flex;
+}
+img{
+    align-self: center;
+}
+#review-one{
+    background-color: hsl(300, 24%, 96%);
+    width: 400px;
+    border-radius: 10px;
+}
+#review-two{
+    background-color: hsl(300, 24%, 96%);
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+#review-three{
+    background-color: hsl(300, 24%, 96%);
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#review img{
+    margin-left: 5px;
+}
+#review p{
+    margin-left: 15px;
+    color:hsl(300, 43%, 22%);
+    font-weight: 900;
+}
+.img-radius{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+body{
+    font-family: League Spartan;
+}
+
+#card-one{
+    margin-top: 25px;
+}
+#card-two{
+    margin-top: 40px;
+}   
+#card-three{
+    margin-top: 55px;
+}
+.margin{
+    margin: 20px;
+}
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    line-height: 50px;
+    margin-top: -20px;
+}
+#review{
+    margin-top: 20px;
+}
+#text{
+    font-size: 20px;
+    margin-right: 100px;
+    color: hsl(300, 43%, 22%);
+}
+.margin-10px{
+    margin-left: 10px;
+}
+.pink-text{
+    margin-top: -14px;
+}
+@media(max-width: 600px){
+    #top{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%;
+        
+    }
+    h1{
+        margin-top: -50px;
+    }
+    #customers{
+        display: block;
+        width: 320px; 
+        margin-left: auto;
+        margin-right: auto;
+    }   
+    #review-one{
+        background-color: hsl(300, 24%, 96%);
+        width: 400px;
+        border-radius: 10px;
+    }
+    #review-two{
+        background-color: hsl(300, 24%, 96%);
+        width: 400px;
+        border-radius: 10px;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    #review-three{
+        background-color: hsl(300, 24%, 96%);
+        width: 400px;
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    #card-one{
+        margin-top: 150px;
+    }
+    #card-two{
+        margin-top: 0px;
+    }
+    #card-three{
+        margin-top: 0px;
+    }
+    #review-one{
+        width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        line-height: 10px;
+    }
+    #review-two{
+        width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        line-height: 10px;
+
+    }
+    #review-three{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        line-height: 10px;
+    }
+    #text{
+        font-size: 20px;
+        color: hsl(300, 43%, 22%);
+        margin-right: auto;
+        
+    }
+    .flex{
+        display: block;
+    }
+    #review-text-one{
+        
+    }
+    #review-text-two{
+        
+    }
+    #review-text-three{
+        
+    }
+    #review-one{
+        
+        
+    }
+
+}
